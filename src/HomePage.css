@@ -1,0 +1,17 @@
+/* styles/HomePage.css */
+.home-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../public/PIC/FirstPage.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-button {
+  padding: 1rem 1.5rem;
+  color: white;
+  background-color: #3b82f6;
+  border-radius: 0.5rem;
+}
