@@ -2,6 +2,9 @@ import React, { useState } from "react";
 
 function Footer_m() {
   const [activeButton, setActiveButton] = useState(null);
+
+  const [activeBtn_home, setActiveBtn_home] = useState(false);
+
   return (
     <div>
       <div className="flex justify-center">
@@ -9,11 +12,11 @@ function Footer_m() {
           <li>
             <button
               className={`focus:outline-none ${
-                activeButton === "button1"
+                activeBtn_home === "btn_home"
                   ? "focus:ring-2 focus:ring-blue-500"
                   : ""
               }`}
-              onClick={() => setActiveButton("button1")}
+              onClick={() => setActiveBtn_home("btn_home")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +37,11 @@ function Footer_m() {
           <li>
             <button
               className={`focus:outline-none ${
-                activeButton === "button2"
+                activeButton === "btn_info"
                   ? "focus:ring-2 focus:ring-blue-500 "
                   : ""
               }`}
-              onClick={() => setActiveButton("button2")}
+              onClick={() => setActiveButton("btn_info")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,11 +62,11 @@ function Footer_m() {
           <li>
             <button
               className={`focus:outline-none ${
-                activeButton === "button3"
+                activeButton === "btn_rank"
                   ? "focus:ring-2 focus:ring-blue-500"
                   : ""
               }`}
-              onClick={() => setActiveButton("button3")}
+              onClick={() => setActiveButton("btn_rank")}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

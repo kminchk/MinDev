@@ -26,13 +26,13 @@ function App() {
               >
                 <Header_m />
                 <div className="flex justify-center items-center h-96">
-                  <div className="w-3/4 bg-base-100">
+                  <div className="w-3/4">
                     <div className="flex justify-center items-center flex-col">
                       <Home_main />
                     </div>
                   </div>
                 </div>
-                <div className="flex justify-center items-end mt-40">
+                <div className="flex justify-center items-end ">
                   <Footer_m />
                 </div>
               </div>
